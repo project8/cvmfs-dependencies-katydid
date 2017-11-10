@@ -10,5 +10,9 @@ ADD ./download_pkg.sh /cvmfs/hep.pnnl.gov/project8/dependencies-katydid/${P8DEPK
 ADD ./install.sh /cvmfs/hep.pnnl.gov/project8/dependencies-katydid/${P8DEPKATYDIDBUILD}/install.sh
 
 RUN source /cvmfs/hep.pnnl.gov/project8/dependencies-katydid/${P8DEPKATYDIDBUILD}/setup.sh && \
+    chmod +x /cvmfs/hep.pnnl.gov/project8/dependencies-katydid/${P8DEPKATYDIDBUILD}/setup.sh &&\
+    sleep 1 &&\
     /cvmfs/hep.pnnl.gov/project8/dependencies-katydid/${P8DEPKATYDIDBUILD}/download_pkg.sh && \
+    chmod +x /cvmfs/hep.pnnl.gov/project8/dependencies-katydid/${P8DEPKATYDIDBUILD}/download_pkg.sh &&\    
+    sleep 1 &&\
     /cvmfs/hep.pnnl.gov/project8/dependencies-katydid/${P8DEPKATYDIDBUILD}/install.sh
