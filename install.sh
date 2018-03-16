@@ -38,6 +38,16 @@ cd boost/
 ./b2 install                     | tee b2_install_log.txt
 cd ..
 
+# dlib
+echo 'dlib'
+cd dlib
+mkdir build
+cd build
+cmake -D CMAKE_INSTALL_PREFIX:PATH=${P8DEPKATYDIDBASEDIR} -D CMAKE_INSTALL_BINDIR:PATH=${P8DEPKATYDIDBASEDIR}/bin -D CMAKE_INSTALL_LIBDIR:PATH=${P8DEPKATYDIDBASEDIR}/lib -D CMAKE_INSTALL_INCLUDEDIR:PATH=${P8DEPKATYDIDBASEDIR}/include ..  | tee config_log.txt
+make -j3                            | tee make_log.txt
+make -j3 install                    | tee make_install_log.txt
+cd ../..
+
 # Clean up the source directory
 pwd
 rm -rf *

@@ -1,6 +1,6 @@
 FROM project8/cvmfs-dependencies-common:build-2017-10-18
 
-ENV P8DEPKATYDIDBUILD=build-2017-10-18
+ENV P8DEPKATYDIDBUILD=build-2018-03-15
 
 RUN mkdir -p /cvmfs/hep.pnnl.gov/project8/dependencies-katydid/${P8DEPKATYDIDBUILD}
 
