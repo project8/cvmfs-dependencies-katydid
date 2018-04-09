@@ -17,10 +17,10 @@ pwd
 
 echo "Environment variables:"
 env
-echo `which python`
-echo `python -V`
+echo `which python3`
+echo `python3 -V`
 echo `gcc --version`
-echo `python --version`
+echo `python3 --version`
 echo `which cc`
 echo `which g++`
 echo `which ld`
