@@ -1,6 +1,6 @@
 # setting dependencies and dep-morpho build name
-export P8DEPBUILD=build-2018-04-09
-export P8DEPKATYDIDBUILD=build-2018-04-09
+export P8DEPBUILD=build-2018-04-12
+export P8DEPKATYDIDBUILD=build-2018-04-12
 
 # source the common dependencies 
 source /cvmfs/hep.pnnl.gov/project8/dependencies-common/${P8DEPBUILD}/setup.sh

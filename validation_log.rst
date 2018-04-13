@@ -43,10 +43,21 @@ Fixes:
 Log
 ---
 
+Version: build-2018-04-12
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Date: Apr 12 2018
+'''''''''''''''''''''''''
+
+New Features:
+'''''''''''''
+
+* Moving Boost into cvmfs-dependencies-common.
+
 Version: build-2018-04-09
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Release Date: Apr ?? 2018
+Release Date: Apr 09 2018
 '''''''''''''''''''''''''
 
 New Features:
