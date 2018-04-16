@@ -53,6 +53,7 @@ New Features:
 '''''''''''''
 
 * Moving Boost into cvmfs-dependencies-common.
+* Using run-cvmfs-install in Docker.
 
 Version: build-2018-04-09
 ~~~~~~~~~~~~~~~~~~~~~~~~~
