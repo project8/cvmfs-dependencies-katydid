@@ -1,11 +1,10 @@
-# setting dependencies and dep-morpho build name
-export P8DEPBUILD=build-2018-04-12
-export P8DEPKATYDIDBUILD=build-2018-04-12
+# setting dependencies and dep-katydid build name
+export P8DEPBUILD=build-2018-04-17
+export P8DEPKATYDIDBUILD=build-2018-04-19
 
 # source the common dependencies 
 source /cvmfs/hep.pnnl.gov/project8/dependencies-common/${P8DEPBUILD}/setup.sh
 
-export P8BASEDIR=/cvmfs/hep.pnnl.gov/project8
 export P8DEPKATYDIDBASEDIR=${P8BASEDIR}/dependencies-katydid/${P8DEPKATYDIDBUILD}
 
 export PATH=${P8DEPKATYDIDBASEDIR}/bin:${PATH}
@@ -21,5 +20,5 @@ export LIBDIR=${LD_LIBRARY_PATH}:${LIBDIR}
 export MANPATH=${P8DEPKATYDIDBASEDIR}/share/man/man1:${MANPATH}
 export PKG_CONFIG_PATH=${P8DEPKATYDIDBASEDIR}/lib/pkgconfig:${PKG_CONFIG_PATH}
 
-export PYTHONPATH=${P8DEPKATYDIDBASEDIR}/lib/root:${P8DEPBASEDIR}/lib:${P8DEPBASEDIR}:${PYTHONPATH}
+export PYTHONPATH=${P8DEPKATYDIDBASEDIR}/lib/root:${P8DEPKATYDIDBASEDIR}/lib:${P8DEPKATYDIDBASEDIR}:${PYTHONPATH}
 export XDG_DATA_DIRS=${P8DEPKATYDIDBASEDIR}/share:${XDG_DATA_DIRS}

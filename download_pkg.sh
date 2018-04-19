@@ -22,11 +22,6 @@ echo "Download: complete!"
 cat wget_log.txt
 ls
 
-# mv download boost_1_59_0.tar.gz       # boost
-# gunzip boost_1_59_0.tar.gz
-# tar -xf boost_1_59_0.tar
-# ln -s boost_1_59_0 boost
-
 bzip2 -d dlib-19.9.tar.bz2      # dlib
 tar -xf dlib-19.9.tar
 ln -s dlib-19.9 dlib

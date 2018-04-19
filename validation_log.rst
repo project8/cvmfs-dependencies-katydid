@@ -43,6 +43,19 @@ Fixes:
 Log
 ---
 
+Version: build-2018-04-19
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Date: Apr 19 2018
+'''''''''''''''''''''''''
+
+New Features:
+'''''''''''''
+
+* Use cvmfs-dependencies-common:build-2018-04-17
+* Build date is now only specified in setup.sh
+
+
 Version: build-2018-04-12
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -53,6 +66,7 @@ New Features:
 '''''''''''''
 
 * Moving Boost into cvmfs-dependencies-common.
+* Using run-cvmfs-install in Docker.
 
 Version: build-2018-04-09
 ~~~~~~~~~~~~~~~~~~~~~~~~~
