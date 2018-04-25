@@ -1,6 +1,6 @@
 # setting dependencies and dep-katydid build name
-export P8DEPBUILD=build-2018-04-17
-export P8DEPKATYDIDBUILD=build-2018-04-19
+export P8DEPBUILD=build-2018-04-23
+export P8DEPKATYDIDBUILD=build-2018-04-23
 
 # source the common dependencies 
 source /cvmfs/hep.pnnl.gov/project8/dependencies-common/${P8DEPBUILD}/setup.sh
