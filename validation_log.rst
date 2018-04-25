@@ -43,6 +43,19 @@ Fixes:
 Log
 ---
 
+Version: build-2018-04-23
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Date: Apr 25 2018
+'''''''''''''''''''''''''
+
+New Features:
+'''''''''''''
+
+* Use cvmfs-dependencies-common:build-2018-04-23
+* Safe build with cleanup moved to cleanup.sh and use of absolute paths
+
+
 Version: build-2018-04-19
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
